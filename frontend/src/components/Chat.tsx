@@ -17,7 +17,7 @@ const Chat = () => {
         
       }, [chats]);
     
-      console.log(chats)
+   
 
 
     const handleSendMessage=()=>{
@@ -27,7 +27,7 @@ const Chat = () => {
           id:Date.now().toString(),
           text:input,
           sender:'user'}
-          console.log(userMessage)
+          
         dispatch(addUserMessage(userMessage));
 
         dispatch(sendMessage(input))

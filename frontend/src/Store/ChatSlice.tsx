@@ -27,7 +27,7 @@ export const sendMessage=createAsyncThunk('chats/sendMessage',async(userMessage:
         const res=await axios.post(URL,{
             message:userMessage
         })
-        console.log(res)
+      
         return res.data.response
     } catch (error) {
         console.error(error)
@@ -36,7 +36,7 @@ export const sendMessage=createAsyncThunk('chats/sendMessage',async(userMessage:
 
 })
 
-console.log(sendMessage);
+
 
 
 
