@@ -79,7 +79,8 @@ cd gembot
 ## Usage
 
 Once both the backend and frontend servers are running, you can access the chat application at 
-backend:[http://localhost:4001/api/chat]((http://localhost:4001/api/chat))   fronend:[http://localhost:5173](http://localhost:5173). 
+backend:[http://localhost:4001/api/chat]((http://localhost:4001/api/chat))  
+fronend:[http://localhost:5173](http://localhost:5173). 
 
 You can ask Gembot any questions related to jewelry, and it will provide recommendations and information.
 
